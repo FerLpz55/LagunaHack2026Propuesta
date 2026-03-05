@@ -2,6 +2,7 @@
 
 @theme {
   --color-primary: #4F46E5;
+  --color-accent: #f43f5e;
   --color-accent-peach: #FFF1F2;
   --color-deep-slate: #0F172A;
   --color-background-light: #f6f6f8;
@@ -44,4 +45,11 @@ h1, h2, h3 {
   .bento-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }

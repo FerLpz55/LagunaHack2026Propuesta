@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
@@ -17,9 +19,9 @@ export default function Home() {
             <a className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors" href="#">Comunidad</a>
           </nav>
           <div className="flex items-center gap-4">
-            <button className="hidden sm:flex items-center justify-center rounded-xl h-11 px-6 bg-primary text-white text-sm font-bold shadow-soft hover:opacity-90 transition-all">
+            <Link href="/login" className="hidden sm:flex items-center justify-center rounded-xl h-11 px-6 bg-primary text-white text-sm font-bold shadow-soft hover:opacity-90 transition-all">
               Empezar Ahora
-            </button>
+            </Link>
             <button className="md:hidden text-deep-slate">
               <span className="material-symbols-outlined">menu</span>
             </button>
@@ -45,9 +47,9 @@ export default function Home() {
               Combinamos tecnología de vanguardia con empoderamiento humano para formar a la próxima generación de líderes digitales.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="h-14 px-8 bg-primary text-white rounded-2xl font-bold text-lg shadow-soft hover:translate-y-[-2px] transition-all">
+              <Link href="/login" className="h-14 px-8 bg-primary text-white rounded-2xl font-bold text-lg shadow-soft hover:translate-y-[-2px] transition-all inline-flex items-center">
                 Explorar Programas
-              </button>
+              </Link>
               <button className="h-14 px-8 bg-white border border-slate-200 text-deep-slate rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all flex items-center gap-2">
                 <span className="material-symbols-outlined">play_circle</span>
                 Ver Demo
