@@ -13,7 +13,7 @@ export default function Home() {
             <h2 className="text-deep-slate text-xl font-extrabold tracking-tight">Emprende Digital</h2>
           </div>
           <nav className="hidden md:flex items-center gap-10">
-            <a className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors" href="#">Cursos</a>
+            <Link className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors" href="/courses">Cursos</Link>
             <a className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors" href="#">Mentorías</a>
             <a className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors" href="#">Herramientas</a>
             <a className="text-sm font-semibold text-slate-600 hover:text-primary transition-colors" href="#">Comunidad</a>

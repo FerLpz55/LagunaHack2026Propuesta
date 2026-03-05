@@ -45,7 +45,7 @@ export default function LoginPage() {
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex items-center gap-8">
             <Link className="text-slate-600 text-sm font-medium hover:text-primary transition-colors" href="/">Inicio</Link>
-            <Link className="text-slate-600 text-sm font-medium hover:text-primary transition-colors" href="/courses">Programas</Link>
+            <Link className="text-slate-600 text-sm font-medium hover:text-primary transition-colors" href="/courses">Cursos</Link>
             <a className="text-slate-600 text-sm font-medium hover:text-primary transition-colors" href="#">Comunidad</a>
           </nav>
           <button
